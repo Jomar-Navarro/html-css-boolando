@@ -19,12 +19,29 @@
   border: 1px dashed black;
 }
 
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  color: white;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.icons i{
+  padding: 0px 5px;
+  color: white;
+}
+
 /* header */
 
 header{
   justify-content: center;
   background-color: #ff6900;
   height: 80px;
+  box-shadow: 0px 1px 4px 0px;
 }
 
 header .container{
@@ -42,12 +59,111 @@ header .container{
 /* main */
 
 .container .product{
-  position: relative;
   margin: 40px auto;
 }
 
-.product img{
+.product{
   position: relative;
+  display: inline-block;
+
+}
+
+.product img{
   width: 465px;
   height: 670px;
 }
+
+.product .heart{
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.product .discount{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  width: 55px;
+  height: 25px;
+  margin-bottom: 100px;
+  background-color: red;
+  color: white;
+}
+
+.product .eco{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  width: 100px;
+  height: 25px;
+  margin-bottom: 100px;
+  margin-left: 60px;
+  background-color: green;
+  color: white;
+}
+
+.product .discount{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  width: 55px;
+  height: 25px;
+  margin-bottom: 100px;
+  background-color: red;
+  color: white;
+}
+
+.product .eco-last{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  width: 100px;
+  height: 25px;
+  margin-bottom: 100px;
+  background-color: green;
+  color: white;
+}
+
+.prezzo{
+  color: red;
+  font-weight: 800;
+}
+
+.overline{
+  text-decoration: line-through;
+}
+
+.product .visible{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product:hover .visible{
+  display: none;
+}
+
+/* main */
