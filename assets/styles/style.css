@@ -38,6 +38,9 @@ ul li{
 /* header */
 
 header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
   justify-content: center;
   background-color: #ff6900;
   height: 80px;
